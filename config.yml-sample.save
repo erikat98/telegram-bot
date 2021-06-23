@@ -10,6 +10,7 @@ input_channel_names:
   - 'غزة الآن - Gaza Now'
   - 'شبكة قدس| عاجل'
   - 'أخبار غزة الآن' 
+Al Mayadeen - قناة الميادين'
   - ' خانيونس الان'
   - ' قناة الجزيرة' 
 # The output channel names that the messages will be forwarded to.
@@ -25,6 +26,7 @@ input_channel_ids:
   - 1318165547
   - 1202229912
   - 1371142060
+  - 1246447757
   - 1301223891
   - 1006840823
 # The output channel IDs that the messages will be forwarded to. (You can get a channel ID by forwarding any message from it to @userinfobot , and removing the -100 from the start )
