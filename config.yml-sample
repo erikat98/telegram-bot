@@ -5,24 +5,33 @@ session_name: 'forwardgram' # Session name. Only one session (with a unique sess
 # The channel names that you'd like to forward messages from.
 # The user running the client must have these channels present on it's dialogs.
 input_channel_names:
-  - 'test2'
+  - 'Admin'
   - 'وكالة شهاب'
   - 'غزة الآن - Gaza Now'
+  - 'شبكة قدس| عاجل'
+  - 'أخبار غزة الآن' 
+  - 'Al Mayadeen - قناة الميادين'
+  - ' خانيونس الان'
+  - ' قناة الجزيرة' 
 # The output channel names that the messages will be forwarded to.
 # The user running the client must have a write access to those channels, and have the channels present on theirs dialogs.
 output_channel_names: 
-  - 'test'
+  - 'تجمع أهالي ناعور ومرج الحمام-أخبار'
   - 'Output Channel Name 2'
 
 # The channel IDs that you'd like to forward messages from. (You can get a channel ID by forwarding any message from it to @userinfobot , and removing the -100 from the start )
 input_channel_ids:
-  - 1335188676
+  - 1208471704
+  - 1111091836
   - 1318165547
-  - 1111091836 
-
+  - 1202229912
+  - 1371142060
+  - 1246447757
+  - 1301223891
+  - 1006840823
 # The output channel IDs that the messages will be forwarded to. (You can get a channel ID by forwarding any message from it to @userinfobot , and removing the -100 from the start )
 output_channel_ids: 
-  - 1298512931
+  - 1469530820
   - ID2
 
 # An empty list should be set like this: 
